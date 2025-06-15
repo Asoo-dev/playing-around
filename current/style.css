@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  background-color: #02012b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 3rem 20rem;
+  background: none;
+  border: none;
+  border-radius: 100vw;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  border-radius: 1rem;
+  background-color: orangered;
+  transition: all 0.3s ease-out;
+}
+
+button:hover::after {
+  width: 100%;
+}
