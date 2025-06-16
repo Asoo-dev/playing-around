@@ -27,11 +27,44 @@ button {
   width: 30rem;
   border: none;
   background: none;
-  background-color: #3c18dd;
-  border-radius: 100vw;
+  /* background-color: #3c18dd; */
+  /* border-radius: 100vw; */
   color: #fff;
   font-size: 4rem;
   font-weight: bolder;
   letter-spacing: 4px;
   cursor: pointer;
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  border: 2px solid #fff;
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  inset: 0 1rem;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  inset: 1rem 0;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+button:hover::after {
+  inset: 2rem 1rem;
+}
+
+button:hover::before {
+  inset: 1rem 2rem;
 }
