@@ -17,56 +17,81 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  perspective: 800px;
+  /* perspective-origin: center bottom; */
+  gap: 4rem;
 }
 
-button {
+.btn {
+  position: relative;
+  height: 150px;
+  width: 450px;
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
+  transform: translateZ(-75px);
+}
+
+.btn:hover {
+  transform: rotateX(-90deg) translateY(75px);
+}
+
+.side {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8rem;
-  width: 30rem;
-  border: none;
-  background: none;
-  /* background-color: #3c18dd; */
-  /* border-radius: 100vw; */
-  color: #fff;
-  font-size: 4rem;
-  font-weight: bolder;
-  letter-spacing: 4px;
-  cursor: pointer;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.default {
+  background-color: white;
+  border: 10px solid #069;
+  color: #069;
+  transform: translateZ(75px);
+}
+
+.hover {
+  color: white;
+  background-color: #069;
+  transform: rotateX(90deg) translateZ(75px);
+}
+
+.btn-2 {
+  height: 15rem;
+  width: 40rem;
   position: relative;
-  border: 2px solid transparent;
-  transition: all 0.3s ease-out;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #000;
+  transition: all 0.7s ease-out;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transform: translateZ(-7.5rem);
 }
 
-button:hover {
-  border: 2px solid #ffffff38;
+.btn-2:hover {
+  transform: rotateX(-90deg) translateY(7.5rem);
 }
 
-button::after {
+.side-2 {
+  display: grid;
+  place-items: center;
   position: absolute;
-  content: "";
-  inset: 0 1rem;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transition: all 0.8s ease-out;
+  height: 100%;
+  width: 100%;
 }
 
-button::before {
-  position: absolute;
-  content: "";
-  inset: 1rem 0;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  transition: all 0.8s ease-out;
+.default-2 {
+  background-color: #ffffff3a;
+  /* opacity: 0.3; */
+  transform: translateZ(7.5rem);
 }
 
-button:hover::after {
-  inset: 0 -7%;
-  transform: skewY(15deg);
-}
-
-button:hover::before {
-  inset: -20% 0;
-  transform: skewX(20deg);
+.hover-2 {
+  background-color: #715eda4f;
+  transform: rotateX(90deg) translateZ(7.5rem);
 }
