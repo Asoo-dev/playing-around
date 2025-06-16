@@ -49,7 +49,7 @@ button::after {
   inset: 0 1rem;
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
-  transition: all 0.9s ease-out;
+  transition: all 0.8s ease-out;
 }
 
 button::before {
@@ -58,13 +58,15 @@ button::before {
   inset: 1rem 0;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
-  transition: all 0.9s ease-out;
+  transition: all 0.8s ease-out;
 }
 
 button:hover::after {
-  transform: rotateY(180deg);
+  inset: 0 -7%;
+  transform: skewY(15deg);
 }
 
 button:hover::before {
-  transform: rotateX(180deg);
+  inset: -20% 0;
+  transform: skewX(20deg);
 }
