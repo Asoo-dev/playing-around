@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   perspective: 100rem;
+  /* perspective-origin: 150% -100%; */
 }
 
 .btn {
@@ -26,6 +27,13 @@ body {
   font-size: 3rem;
   font-weight: bolder;
   position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-7.5rem);
+  transition: all 0.6s ease-out;
+}
+
+.btn:hover {
+  transform: rotateX(-90deg) translateY(7.5rem);
 }
 
 .side {
@@ -38,9 +46,11 @@ body {
 }
 
 .default {
-  background-color: blue;
+  background-color: rgb(35, 202, 224);
+  transform: translateZ(7.5rem);
 }
 
 .hover {
-  background-color: rebeccapurple;
+  background-color: rgba(199, 181, 24, 0.507);
+  transform: rotateX(90deg) translateZ(7.5rem);
 }
