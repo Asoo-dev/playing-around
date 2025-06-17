@@ -18,27 +18,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.shape {
-  height: 50rem;
-  width: 100rem;
-  background-color: orangered;
-  /* clip-path: inset(10rem 10rem ); */
-  /* clip-path: polygon(
-    50% 0%,
-    90% 20%,
-    100% 60%,
-    75% 100%,
-    25% 100%,
-    0% 60%,
-    10% 20%
-  );
- */
-  /* clip-path: inset(10% 10% 10% 10% round 1% 10% 40% 20%); */
-  /* border: 1px solid red; */
-  /* outline: 2px solid rgb(27, 212, 245); */
-  /* clip-path: ellipse(10rem 20rem at 50% 50%); */
-  /* clip-path: inset(15rem 45rem round 50%); */
-  /* clip-path: rect(5rem 10rem 50rem 30rem); */
-  /* clip-path: rect(5px 5px 160px 145px); */
-  clip-path: xywh(0 0 70rem 30rem round 100rem);
+
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  width: 90%;
+  height: 90%;
+  gap: 2rem;
+}
+
+.grid-item {
+  height: 20rem;
+  /* max-width: 21rem; */
+  background-color: aqua;
+}
+
+.gi-3 {
+  grid-column: 8 / span 2;
 }
