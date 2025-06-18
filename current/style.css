@@ -31,13 +31,13 @@ body {
   /* grid-template-columns: [c-1-s]1fr [c-1-e c-2-s] 3fr [c-2-w c-3-s]; */
   /* grid-template-columns: repeat(3, [c-s] 1fr [c-e]); */
   /* grid-template-rows: repeat(2, [r-s] 1fr [r-e]); */
-  grid-template-columns: 400px 1fr 250px 1fr;
-  grid-template-areas:
-    "header header header header"
-    "sidebar main main main"
-    "sidebar main main main"
-    "sidebar main main main"
-    "footer footer footer footer";
+  grid-template-columns: ;
+  grid-template:
+    [row-1-start] "header header header header" 8rem [row-1-end]
+    [row-2-start] "sidebar main main main" 1fr [row-2-end]
+    [row-3-start] "sidebar main main main" 1fr [row-3-end]
+    [row-4-start] "sidebar main main main" 1fr [row-4-end]
+    [row-5-start] "footer footer footer footer" 8rem [row-5-end] / [col-1-start] 400px [col-1-end col-2-start] 1fr [col-2-end col-3-start] 250px [col-3-end col-4-start] 1fr [col-4-end];
 }
 
 .gi {
@@ -60,4 +60,9 @@ body {
 }
 .gi4 {
   grid-area: footer;
+}
+.gi5 {
+  background-color: orangered;
+  opacity: 0.5;
+  grid-area: row-3-start / col-3-start / row-5-end / col-4-end;
 }
