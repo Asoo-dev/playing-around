@@ -22,13 +22,12 @@ body {
 .grid {
   --w: 25rem;
   --g: 2rem;
-  place-items: center;
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
-
   width: 90%;
   height: 90%;
-  /* gap: 2rem; */
+  gap: 2rem;
+  grid-auto-columns: minmax(200px, auto);
+  grid-auto-rows: minmax(60px, auto);
 }
 
 .gi {
@@ -36,44 +35,16 @@ body {
   place-items: center;
   font-size: 4rem;
   font-weight: bolder;
-  grid-area: 1/1;
-  width: var(--w);
-  aspect-ratio: 1.15;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-
   /* max-width: 21rem; */
   background-color: aqua;
-  transform: translate(var(--x, 0), var(--y, 0));
-}
-
-.gi:hover {
-  scale: 1.2;
 }
 
 .gi1 {
-  --y: calc(-100% - var(--g));
+  grid-column-end: 2;
+  grid-column-start: span 2;
 }
 
-.gi7 {
-  --y: calc(100% + var(--g));
-}
-
-.gi4,
-.gi6 {
-  --x: calc(75% + 0.87 * var(--g));
-}
-
-.gi3,
-.gi5 {
-  --x: calc(-75% - 0.87 * var(--g));
-}
-
-.gi3,
-.gi4 {
-  --y: calc(-50% - 0.5 * var(--g));
-}
-
-.gi5,
-.gi6 {
-  --y: calc(50% + 0.5 * var(--g));
+.gi2 {
+  grid-row-end: 2;
+  grid-row-start: span 2;
 }
