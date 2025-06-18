@@ -28,6 +28,9 @@ body {
   gap: 2rem;
   /* grid-auto-columns: minmax(200px, auto);
   grid-auto-rows: minmax(60px, auto); */
+  /* grid-template-columns: [c-1-s]1fr [c-1-e c-2-s] 3fr [c-2-w c-3-s]; */
+  grid-template-columns: repeat(3, [c-s] 1fr [c-e]);
+  grid-template-rows: repeat(2, [r-s] 1fr [r-e]);
 }
 
 .gi {
@@ -39,18 +42,6 @@ body {
   background-color: aqua;
 }
 
-.gi2 {
-  grid-row-end: 2;
-  grid-row-start: span 2;
-}
-
 .gi1 {
-  grid-row-end: 2;
-  grid-row-start: span 2;
-  grid-column-end: 2;
-  grid-column-start: span 2;
-}
-
-.gi5 {
-  grid-column: 3;
+  grid-column: c-s 1 / c-e 3;
 }
