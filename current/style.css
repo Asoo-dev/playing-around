@@ -26,11 +26,22 @@ body {
   width: 90%;
   height: 90%;
   gap: 2rem;
-  grid-template-columns: repeat(3, 400px);
-  grid-template-rows: repeat(2, 400px);
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(2, 400px); */
   /* grid-auto-flow: dense; */
-  grid-auto-flow: column;
-  grid-auto-columns: 400px;
+  /* grid-auto-flow: column;
+  grid-auto-columns: 400px; */
+}
+
+.grid::before,
+.grid::after {
+  content: "grid befor";
+  background-color: aqua;
+  font-size: 4rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gi {
@@ -42,7 +53,6 @@ body {
 }
 
 .gi1 {
-  grid-column: 2;
 }
 .gi2 {
 }
