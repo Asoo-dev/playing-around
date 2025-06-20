@@ -25,9 +25,7 @@ body {
   height: 90%;
   gap: 2rem;
   grid-template-columns: repeat(3, [col] 1fr [col-end]);
-  grid-template-rows: repeat(3, 1fr);
   transition: all 0.4s ease-in;
-  position: relative;
 }
 
 .gi {
@@ -47,10 +45,4 @@ body {
 .gi4 {
 }
 .gi10 {
-  grid-area: 1/2/3/3;
-  background-color: orangered;
-  opacity: 0.6;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
