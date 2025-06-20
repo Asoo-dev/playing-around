@@ -24,8 +24,7 @@ body {
   width: 90%;
   height: 90%;
   gap: 2rem;
-  grid-template-columns: repeat(3, [col] 1fr [col-end]);
-  transition: all 0.4s ease-in;
+  grid-template-columns: 1fr 120rem 1fr;
 }
 
 .gi {
@@ -34,6 +33,14 @@ body {
   background-color: aqua;
   display: grid;
   place-items: center;
+}
+
+.center {
+  grid-column: 2;
+}
+
+.full {
+  grid-column: 1/-1;
 }
 
 .gi1 {
