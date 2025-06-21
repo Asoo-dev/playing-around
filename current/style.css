@@ -24,7 +24,7 @@ body {
   width: 90%;
   height: 90%;
   gap: 2rem;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* justify-content: space-between; */
   align-items: center;
   /* align-content: space-between; */
@@ -43,14 +43,16 @@ body {
 }
 
 .gi1 {
-  /* flex: 0 1 auto; */
+  flex: 1 1 100%;
 }
 .gi2 {
-  /* flex: 0 1 auto; */
+  flex: 1 1 24%;
 }
 .gi3 {
+  flex: 1 1 70%;
 }
 .gi4 {
+  flex: 1 1 100%;
 }
 .gi10 {
 }
