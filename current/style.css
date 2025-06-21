@@ -20,11 +20,14 @@ body {
 }
 
 .grid {
-  display: grid;
+  display: flex;
   width: 90%;
   height: 90%;
   gap: 2rem;
-  grid-template-columns: 1fr 120rem 1fr;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* align-content: stretch; */
 }
 
 .gi {
@@ -33,21 +36,18 @@ body {
   background-color: aqua;
   display: grid;
   place-items: center;
-}
-
-.center {
-  grid-column: 2;
-}
-
-.full {
-  grid-column: 1/-1;
+  width: 35rem;
+  height: 10rem;
 }
 
 .gi1 {
+  width: 40rem;
 }
 .gi2 {
+  width: 30rem;
 }
 .gi3 {
+  width: 60rem;
 }
 .gi4 {
 }
