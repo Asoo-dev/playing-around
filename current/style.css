@@ -31,7 +31,7 @@ body {
 }
 
 .gi {
-  --nc: 12;
+  --nc: 8;
   font-size: 2.4rem;
   font-weight: bolder;
   background-color: aqua;
@@ -41,7 +41,7 @@ body {
   /* width: 15rem; */
   /* height: 10rem; */
   /* flex: 0 1 calc((100% / var(--nc)) - (var(--nc - 1) * 2rem) / var(--nc)); */
-  flex: 0 1 calc((100% / var(--nc)) - ((var(--nc) - 1) * 2rem) / var(--nc));
+  /* flex: 0 1 calc((100% / var(--nc)) - ((var(--nc) - 1) * 2rem) / var(--nc)); */
   /* word-break: break-all; */
 }
 
@@ -50,17 +50,20 @@ body {
   /* flex: 1; */
   /* flex-grow: 1; */
   /* flex: 1 0 30%; */
+  flex-basis: calc(50% - (3 * 2rem) / 4);
 }
 .gi2 {
   /* flex: 1 1 24%; */
   /* flex: 1; */
   /* flex-grow: 1; */
   /* flex: 1 0 30%; */
+  flex-basis: calc(25% - (3 * 2rem) / 4);
 }
 .gi3 {
   /* flex: 1 1 70%; */
   /* flex: 1; */
   /* flex: 1 0 30%; */
+  flex-basis: calc(25% - (3 * 2rem) / 4);
 }
 .gi4 {
   /* flex: 1 1 100%; */
