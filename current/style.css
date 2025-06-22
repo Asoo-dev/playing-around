@@ -31,6 +31,7 @@ body {
 }
 
 .gi {
+  --nc: 12;
   font-size: 2.4rem;
   font-weight: bolder;
   background-color: aqua;
@@ -39,7 +40,9 @@ body {
   /* padding: 4rem 8rem; */
   /* width: 15rem; */
   /* height: 10rem; */
-  flex: 0 1 calc((100% / 5) - (4 * 2rem) / 5);
+  /* flex: 0 1 calc((100% / var(--nc)) - (var(--nc - 1) * 2rem) / var(--nc)); */
+  flex: 0 1 calc((100% / var(--nc)) - ((var(--nc) - 1) * 2rem) / var(--nc));
+  /* word-break: break-all; */
 }
 
 .gi1 {
