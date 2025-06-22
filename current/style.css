@@ -31,33 +31,33 @@ body {
 }
 
 .gi {
-  font-size: 4rem;
+  font-size: 2.4rem;
   font-weight: bolder;
   background-color: aqua;
-  display: grid;
-  place-items: center;
+  /* display: grid; */
+  /* place-items: center; */
   /* padding: 4rem 8rem; */
   /* width: 15rem; */
   /* height: 10rem; */
-  flex: 0 1 20rem;
+  flex: 1 1 calc((100% / 3) - (2 * 2rem) / 3);
 }
 
 .gi1 {
   /* flex: 1 1 100%; */
   /* flex: 1; */
   /* flex-grow: 1; */
-  flex: 1 0 30%;
+  /* flex: 1 0 30%; */
 }
 .gi2 {
   /* flex: 1 1 24%; */
   /* flex: 1; */
   /* flex-grow: 1; */
-  flex: 1 0 30%;
+  /* flex: 1 0 30%; */
 }
 .gi3 {
   /* flex: 1 1 70%; */
   /* flex: 1; */
-  flex: 1 0 30%;
+  /* flex: 1 0 30%; */
 }
 .gi4 {
   /* flex: 1 1 100%; */
