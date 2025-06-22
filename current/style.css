@@ -39,19 +39,25 @@ body {
   /* padding: 4rem 8rem; */
   /* width: 15rem; */
   /* height: 10rem; */
-  /* flex: 0 1 20rem; */
+  flex: 0 1 20rem;
 }
 
 .gi1 {
   /* flex: 1 1 100%; */
-  flex: 1;
+  /* flex: 1; */
+  /* flex-grow: 1; */
+  flex: 1 0 30%;
 }
 .gi2 {
   /* flex: 1 1 24%; */
-  flex: 1;
+  /* flex: 1; */
+  /* flex-grow: 1; */
+  flex: 1 0 30%;
 }
 .gi3 {
   /* flex: 1 1 70%; */
+  /* flex: 1; */
+  flex: 1 0 30%;
 }
 .gi4 {
   /* flex: 1 1 100%; */
