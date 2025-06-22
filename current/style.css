@@ -24,7 +24,7 @@ body {
   width: 90%;
   height: 90%;
   gap: 2rem;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* justify-content: space-between; */
   align-items: center;
   /* align-content: space-between; */
@@ -44,13 +44,11 @@ body {
 
 .gi1 {
   /* flex: 1 1 100%; */
-  font-size: 3rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  flex: 1;
 }
 .gi2 {
   /* flex: 1 1 24%; */
+  flex: 1;
 }
 .gi3 {
   /* flex: 1 1 70%; */
