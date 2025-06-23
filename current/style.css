@@ -54,7 +54,7 @@ body {
   /* flex-grow: 1; */
   /* flex: 1 0 30%; */
   /* flex-basis: calc(50% - (2 * 2rem) / 3); */
-  flex-basis: calc(50% - (2 * 2rem) / 2);
+  flex-basis: calc(100% / 9 * 2 - (7 * 2rem) / 4.5);
   /* flex-basis: 50%; */
 }
 .gi2 {
@@ -62,23 +62,33 @@ body {
   /* flex: 1; */
   /* flex-grow: 1; */
   /* flex: 1 0 30%; */
-  flex-basis: calc(25% - (2 * 2rem) / 4);
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
   /* flex-basis: 25%; */
 }
 .gi3 {
   /* flex: 1 1 70%; */
   /* flex: 1; */
   /* flex: 1 0 30%; */
-  flex-basis: calc(25% - (2 * 2rem) / 4);
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
   /* flex-basis: 25%; */
 }
 .gi4 {
-  /* flex-basis: calc(100% / 2 - 1.5rem); */
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
   /* flex: 1 1 100%; */
 }
 .gi5 {
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
+
   /* flex-basis: calc(100% / 4 - (3 * 2rem) / 4); */
   /* flex: 1 1 100%; */
 }
-.gi10 {
+
+.gi6 {
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
+}
+.gi7 {
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
+}
+.gi8 {
+  flex-basis: calc(100% / 9 - (7 * 2rem) / 9);
 }
