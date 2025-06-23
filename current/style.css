@@ -57,7 +57,8 @@ body {
   /* flex-basis: calc(50% - (2 * 2rem) / 3); */
   /* flex-basis: calc(100% / 12 * 2 - (2 * 2rem) / 12 * 2); */
   /* flex-basis: 50%; */
-  flex: 0 2 50rem;
+  flex: 0 4 50rem;
+  /* min-width: 0; */
 }
 .gi2 {
   /* flex: 1 1 24%; */
@@ -66,7 +67,7 @@ body {
   /* flex: 1 0 30%; */
   /* flex-basis: calc(100% / 12 * 8 - (2 * 2rem) / 12 * 8); */
   /* flex-basis: 25%; */
-  flex: 0 1 50rem;
+  flex: 0 3 50rem;
 }
 .gi3 {
   /* flex: 1 1 70%; */
@@ -74,7 +75,7 @@ body {
   /* flex: 1 0 30%; */
   /* flex-basis: calc(100% / 12 * 2 - (2 * 2rem) / 12 * 2); */
   /* flex-basis: 25%; */
-  flex: 0 1 50rem;
+  flex: 0 2 50rem;
 }
 .gi4 {
   /* flex-basis: calc(100% / 9 - (6 * 2rem) / 9); */
