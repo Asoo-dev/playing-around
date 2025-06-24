@@ -20,20 +20,25 @@ body {
 }
 
 .grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   width: 90%;
   height: 90%;
-  gap: 2rem;
+  /* gap: 2rem; */
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
   align-items: center;
   /* align-content: space-between; */
+  position: relative;
 }
 
 .gi {
-  font-size: 2.4rem;
-  font-weight: bolder;
-  background-color: aqua;
+  /* font-size: 2.4rem; */
+  /* font-weight: bolder; */
+  /* background-color: aqua; */
+  height: 100%;
+  width: 2px;
+  background-color: aliceblue;
 }
 
 .gi1 {
@@ -45,6 +50,9 @@ body {
 .gi4 {
 }
 .gi5 {
+  position: absolute;
+  /* top: 0; */
+  right: 0;
 }
 
 .gi6 {
