@@ -21,27 +21,35 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   width: 90%;
   height: 90%;
   /* gap: 2rem; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
   align-items: center;
-  /* align-content: space-between; */
-  position: relative;
 }
 
 .gi {
   /* font-size: 2.4rem; */
   /* font-weight: bolder; */
-  /* background-color: aqua; */
+  background-color: aqua;
   height: 100%;
-  width: 2px;
-  background-color: aliceblue;
 }
 
 .gi1 {
+  background: linear-gradient(
+    to left,
+    aqua 50%,
+    rgb(183, 69, 194) 50%,
+    rgb(183, 69, 194) 60%,
+    transparent 60%,
+    transparent 71%,
+    yellow 71%,
+    yellow 90%,
+    transparent 90%
+  );
+  transition: background 0.6s linear;
+}
+
+.gi1:hover {
 }
 .gi2 {
 }
@@ -50,11 +58,7 @@ body {
 .gi4 {
 }
 .gi5 {
-  position: absolute;
-  /* top: 0; */
-  right: 0;
 }
-
 .gi6 {
 }
 .gi7 {
