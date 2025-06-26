@@ -71,41 +71,17 @@ body {
     ),
     aqua;
 
-  background: radial-gradient(circle at 47% 35%, #fff9 0 8%, transparent 0),
+  background: radial-gradient(circle at 47% 40%, #fff9 0 8%, transparent 0),
     radial-gradient(
-      circle farthest-side at 50% 44%,
+      circle farthest-side at 50% 45%,
       black 0 20%,
       rgb(56, 145, 224) 20%,
       rgb(30, 94, 172) 40%,
       black 40% 42%,
       transparent 0
     ),
-    radial-gradient(
-      circle farthest-side at 50% 160%,
-      transparent 100%,
-      currentColor
-    ),
-    radial-gradient(circle farthest-side at 50% -91%, white 100%, currentColor);
-  /* background-image: radial-gradient(
-      circle at 50% 50%,
-      #fff9 0 8%,
-      transparent 0
-    ),
-    radial-gradient(
-      circle farthest-side at 50% 50%,
-      black 0 20%,
-      rgb(56, 145, 224) 20%,
-      rgb(30, 94, 172) 40%,
-      black 40% 42%,
-      transparent 0
-    ),
-    radial-gradient(
-      circle farthest-side at 50% 133%,
-      transparent 100%,
-      currentColor
-    ),
-    radial-gradient(circle farthest-side at 50% -21%, white 100%, currentColor); */
-
+    radial-gradient(circle farthest-side at 50% 136%, transparent 100%, black),
+    radial-gradient(circle farthest-side at 50% -24%, white 100%, black);
   /* background-size: 75rem 75rem; */
   background-repeat: no-repeat;
   background-clip: border-box;
