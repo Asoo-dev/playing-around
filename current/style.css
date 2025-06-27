@@ -82,23 +82,43 @@ body {
     ),
     radial-gradient(circle farthest-side at 50% 136%, transparent 100%, black),
     radial-gradient(circle farthest-side at 50% -24%, white 100%, black); */
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle Closest-corner at 10% 30%,
     rgb(255, 0, 0),
     rgb(255, 94, 0),
-    yellow 90%,
-    transparent 140%
-  );
-  /* background-size: 75rem 75rem; */
+    yellow 130%,
+    transparent 200%
+  ); */
+  border-radius: 50%;
+  background: radial-gradient(
+      circle 110rem at 0 100%,
+      rgb(241, 30, 196) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 110rem at 100% 100%,
+      rgb(241, 30, 196) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 110rem at 100% 0,
+      rgb(241, 30, 196) 100%,
+      transparent 0
+    ),
+    radial-gradient(circle 110rem at 0 0, rgb(241, 30, 196) 100%, black 0);
+
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-clip: border-box;
-  background-position: center 50%;
+  background-clip: padding-box;
+  /* background-position: 10% 10%; */
   background-origin: padding-box;
-  /* transition: all 0.6s linear; */
+  transition: all 0.6s linear;
 }
 
 .gi1:hover {
   /* background-position: 150% 200%; */
+  background-size: 120% 120%;
+  /* background-position: 10% 10%; */
 }
 .gi2 {
 }
