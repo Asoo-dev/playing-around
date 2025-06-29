@@ -36,7 +36,7 @@ body {
 }
 
 .gi1 {
-  border: 50px dashed rgba(93, 171, 245, 0.671);
+  /* border: 50px dashed rgba(93, 171, 245, 0.671); */
   padding: 10rem;
   /* color: red;S */
   /* background: linear-gradient(
@@ -137,48 +137,20 @@ body {
     ),
     url(../1-3.jpg);
   background-blend-mode: luminosity; */
-  /* background-size: 100% 100%, 100% 100%; */
-  /* background-repeat: no-repeat no-repeat; */
-  /* background-clip: padding-box, padding-box;
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat no-repeat;
+  background-clip: padding-box, padding-box;
   background-position: 50% 50%, 50% 50%;
   background-origin: border-box, border-box;
-  transition: all 0.6s linear; */
-  background: repeating-linear-gradient(
-      0deg,
-      red,
-      red 10px,
-      transparent 10px,
-      transparent 20px,
-      red 20px
+  transition: all 0.6s linear;
+  /* background: conic-gradient(
+      from 0.5turn at bottom left,
+      deeppink,
+      rebeccapurple
     ),
-    repeating-linear-gradient(
-      90deg,
-      red,
-      red 10px,
-      transparent 10px,
-      transparent 20px,
-      red 20px
-    ),
-    repeating-linear-gradient(
-      180deg,
-      red,
-      red 10px,
-      transparent 10px,
-      transparent 20px,
-      red 20px
-    ),
-    repeating-linear-gradient(
-      270deg,
-      red,
-      red 10px,
-      transparent 10px,
-      transparent 20px,
-      red 20px
-    );
-  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
-  
+    conic-gradient(from -80deg at 50% -25%, rgb(0, 238, 255), blueviolet); */
+
+  background: repeating-linear-gradient(to right, aqua 0 10px, black 0 20px);
 }
 
 .gi1:hover {
