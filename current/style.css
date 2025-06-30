@@ -45,13 +45,14 @@ body {
     purple 100%,
     transparent 0
   );
-  /* border-image-source: url(../border-img-dimond.png); */
+  border-image-source: url(../border-img-dimond.png);
   /* border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60; */
   /* border-image: radial-gradient(#ff2, #55f) 40; */
 
-  border-image-width: 3rem 2rem 1rem 10rem;
-  border-image-outset: 3rem;
-  border-image-slice: 1;
+  border-image-width: 3rem;
+  border-image-outset: 3resm;
+  border-image-repeat: round space;
+  border-image-slice: 33.33%;
   /* border-image-repeat: repeat; */
   /* padding: 10rem; */
 }
