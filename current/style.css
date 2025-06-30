@@ -39,13 +39,18 @@ body {
 .gi1 {
   /* border: 50px dashed rgb(181, 0, 253); */
   /* border: 4rem solid; */
-  border-image: linear-gradient(to bottom, blue, purple);
+  border-image: radial-gradient(
+    circle at 0% 50%,
+    blue,
+    purple 100%,
+    transparent 0
+  );
   /* border-image-source: url(../border-img-dimond.png); */
   /* border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60; */
   /* border-image: radial-gradient(#ff2, #55f) 40; */
 
-  border-image-width: 4rem;
-  border-image-outset: 4rem;
+  border-image-width: 3rem;
+  border-image-outset: 3rem;
   border-image-slice: 1;
   /* border-image-repeat: repeat; */
   /* padding: 10rem; */
