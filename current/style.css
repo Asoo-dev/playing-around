@@ -29,138 +29,28 @@ body {
 
 .gi {
   font-size: 9.4rem;
-  /* font-weight: bolder; */
+  font-weight: bolder;
   background-color: aqua;
-
   height: 100%;
+  /* height: 90px; */
+  /* width: 90px; */
 }
 
 .gi1 {
-  /* border: 50px dashed rgba(93, 171, 245, 0.671); */
-  padding: 10rem;
-  /* color: red;S */
-  /* background: linear-gradient(
-    to right bottom,
-    rgb(0, 255, 55) -2% 0%,
-    aqua 0% 50%,
-    rgb(183, 69, 194) 50% 60%,
-    transparent 60% 70%,
-    yellow 70% 90%,
-    transparent 90% 100%,
-    rgb(0, 255, 55) 100% 102%
-  ); */
+  /* border: 50px dashed rgb(181, 0, 253); */
+  /* border: 4rem solid; */
+  /* border-image: linear-gradient(to bottom, blue, purple); */
+  border-image-source: url(../border-img-dimond.png);
+  /* border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60; */
+  /* border-image: radial-gradient(#ff2, #55f) 40; */
 
-  /* background: repeating-linear-gradient(
-        to bottom right,
-        rgb(0, 255, 55) -2px 0px,
-        aqua 0px 30px,
-        rgb(183, 69, 194) 20px 35px,
-        transparent 35px 60px,
-        yellow 60px 80px,
-        transparent 80px 100px,
-        rgb(0, 255, 55) 100px 102px
-      ) */
-  /* repeating-radial-gradient(
-      circle 50rem at 0 0,
-      aqua 30%,
-      rgb(104, 33, 238) 30% 50%,
-      transparent 50% 60%,
-      yellow 60% 80%,
-      transparent 80% 90%,
-      orangered 90% 100%,
-      transparent 100%
-    ) ,*/
-  /* repeating-radial-gradient(
-      circle 10rem at 0 0,
-      rgb(171, 19, 231),
-      rgb(98, 26, 231),
-      yellow
-    ); */
-
-  /* background-blend-mode: overlay; */
-  /* background: radial-gradient(
-    circle 35rem at 50% 50%,
-    aqua 30%,
-    rgb(104, 33, 238) 30% 50%,
-    transparent 50% 60%,
-    yellow 60% 80%,
-    transparent 80% 90%,
-    orangered 90% 100%,
-    transparent 100%
-  ); */
-  /* background: radial-gradient(
-      circle 30rem at 50% 50%,
-      aqua 30%,
-      rgb(104, 33, 238) 30% 50%,
-      transparent 50% 60%,
-      yellow 60% 80%,
-      transparent 80% 90%,
-      orangered 90% 100%,
-      transparent 100%
-    ),
-    aqua; */
-
-  /* background: radial-gradient(
-    circle Closest-corner at 10% 30%,
-    rgb(255, 0, 0),
-    rgb(255, 94, 0),
-    yellow 130%,
-    transparent 200%
-  ); */
-  /* background: linear-gradient(
-      to right,
-      transparent 49.95%,
-      white 49.95% 50.05%,
-      transparent 50.05%
-    ),
-    repeating-conic-gradient(rgb(228, 34, 228), black 180deg); */
-
-  /* --lamp: transparent;
-  background: linear-gradient(to right, transparent 0 100%),
-    linear-gradient(
-      to right,
-      black 50%,
-      var(--lamp) 50% 50.4%,
-      rgba(255, 255, 255, 0.6) 50.4%,
-      rgba(255, 255, 255, 0.8) 100%
-    ); */
-
-  /* background: repeating-linear-gradient(
-      45deg,
-      #dd41eb 0px 100px,
-      #425beb 100px 200px
-    ),
-    repeating-radial-gradient(
-      at 50% 50%,
-      yellow 0 100px,
-      rgb(76, 233, 207) 100px 200px
-    ),
-    url(../1-3.jpg);
-  background-blend-mode: luminosity; */
-  background-size: 100% 100%, 100% 100%;
-  background-repeat: no-repeat no-repeat;
-  background-clip: padding-box, padding-box;
-  background-position: 50% 50%, 50% 50%;
-  background-origin: border-box, border-box;
-  transition: all 0.6s linear;
-  /* background: conic-gradient(
-      from 0.5turn at bottom left,
-      deeppink,
-      rebeccapurple
-    ),
-    conic-gradient(from -80deg at 50% -25%, rgb(0, 238, 255), blueviolet); */
-
-  background: repeating-linear-gradient(to right, aqua 0 10px, black 0 20px);
-  	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
-    	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 75%);
-
-
+  border-image-width: 4rem;
+  /* border-image-slice: 50; */
+  border-image-repeat: stretch;
+  /* padding: 10rem; */
 }
 
 .gi1:hover {
-  /* background-position: 150% 200%; */
-  /* background-size: 120% 120%, 150% 150%; */
-  /* background-position: 10% 10%; */
 }
 .gi2 {
 }
