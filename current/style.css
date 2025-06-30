@@ -49,7 +49,7 @@ body {
   /* border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60; */
   /* border-image: radial-gradient(#ff2, #55f) 40; */
 
-  border-image-width: 3rem;
+  border-image-width: 3rem 2rem 1rem 10rem;
   border-image-outset: 3rem;
   border-image-slice: 1;
   /* border-image-repeat: repeat; */
