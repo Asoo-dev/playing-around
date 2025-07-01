@@ -47,28 +47,17 @@ body {
     rgb(255, 45, 108) 75%,
     transparent 100%
   ); */
-  border: 3rem solid transparent;
-  background: linear-gradient(#02012b, #02012b),
-    conic-gradient(
-      from 115deg at 50% 50%,
-      transparent 20%,
-      blue 40%,
-      transparent 50% 65%,
-      rgb(255, 45, 108) 75%,
-      transparent 100%
-    );
-  background-origin: padding-box, border-box;
-  background-clip: padding-box, border-box;
+
   /* border: 3rem solid; */
-  /* border-image-source: url(../border-img-dimond.png); */
+  border-image-source: url(../border-img-svg.svg);
+  border-image-source: url(../border-img-dimond.png);
   /* border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60; */
   /* border-image: radial-gradient(#ff2, #55f) 40; */
-  /* border-image-width: 3rem; */
+  border-image-width: 3rem;
   /* border-image-outset: 3rem; */
-  /* border-image-repeat: space; */
-  /* border-image-slice: 1; */
+  border-image-repeat: space;
+  border-image-slice: 30;
   /* padding: 10rem; */
-  position: relative;
 }
 
 .gi1:hover {
