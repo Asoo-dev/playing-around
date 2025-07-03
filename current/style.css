@@ -14,9 +14,10 @@ body {
   font-family: sans-serif;
   height: 100vh;
   background-color: #02012b;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  /* position: relative; */
 }
 
 .grid {
@@ -51,12 +52,27 @@ body {
   left: 0;
   top: 0;
 }
+
+.outer {
+  background-color: orangered;
+  /* height: 90%; */
+  width: 80%;
+  margin: 8rem auto;
+  font-size: 3.2rem;
+  position: relative;
+}
+
 .inner {
   position: sticky;
   background-color: #fff;
   top: 3rem;
   left: 0;
-  width: 100%;
+  /* right: 0; */
+  /* width: 90%;
+  transform: translate(-50%, -50%); */
+}
+.inner + .inner {
+  background-color: rgb(0, 255, 255);
 }
 .gi3 {
 }
