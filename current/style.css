@@ -73,6 +73,7 @@ body {
 }
 .inner + .inner {
   background-color: rgb(0, 255, 255);
+  top: 6.7rem;
 }
 .gi3 {
 }
