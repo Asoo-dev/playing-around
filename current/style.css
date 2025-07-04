@@ -38,7 +38,9 @@ body {
   column-count: 3;
   /* column-width: 40vw; */
   column-gap: 4em;
-  column-rule: 4rem solid #02012b;
+  /* column-rule: 4rem solid #02012b; */
+  column-fill: auto;
+  overflow: hidden;
 }
 .gi2 {
 }
