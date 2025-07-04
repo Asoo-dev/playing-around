@@ -39,9 +39,14 @@ body {
   /* column-width: 40vw; */
   column-gap: 4em;
   /* column-rule: 4rem solid #02012b; */
-  column-fill: auto;
-  overflow: hidden;
 }
+
+h1 {
+  background-color: blueviolet;
+  column-span: all;
+  margin-bottom: 6rem;
+}
+
 .gi2 {
 }
 .gi3 {
