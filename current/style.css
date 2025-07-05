@@ -27,26 +27,23 @@ body {
 }
 
 .gi {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-weight: bolder;
   background-color: aqua;
   height: 100%;
 }
 
 .gi1 {
-  /* padding: 8rem 0; */
-  column-count: 3;
-  /* column-width: 40vw; */
-  column-gap: 4em;
-  /* column-rule: 4rem solid #02012b; */
 }
 
-h1 {
-  background-color: blueviolet;
-  column-span: all;
-  margin-bottom: 6rem;
+.inner {
+  background-color: red;
+  width: 40rem;
+  height: 20rem;
+  /* padding: 0 25%; */
+  padding-left: 50%;
+  padding-top: 50%;
 }
-
 .gi2 {
 }
 .gi3 {
