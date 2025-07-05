@@ -20,7 +20,7 @@ body {
 }
 
 .grid {
-  display: grid;
+  /* display: grid; */
   width: 90%;
   height: 90%;
   /* gap: 2rem; */
@@ -38,11 +38,12 @@ body {
 
 .inner {
   background-color: red;
-  width: 40rem;
-  height: 20rem;
-  /* padding: 0 25%; */
-  padding-left: 50%;
-  padding-top: 50%;
+  width: max-content;
+  /* height: 20rem; */
+  padding: 20%;
+  /* padding-left: 50%; */
+  /* padding-top: 50%; */
+  box-sizing: content-box;
 }
 .gi2 {
 }
