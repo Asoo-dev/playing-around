@@ -23,7 +23,8 @@ body {
   /* display: grid; */
   width: 90%;
   height: 90%;
-  /* gap: 2rem; */
+  gap: 2rem;
+  background-color: rgba(0, 255, 255, 0.452);
 }
 
 .gi {
@@ -41,7 +42,7 @@ body {
   align-items: center;
   justify-content: center; */
   /* background-color: #fff; */
-  /* position: relative; */
+  position: relative;
 }
 
 .inner {
@@ -65,7 +66,7 @@ body {
   margin-top: -20rem;
   /* top: 30rem; */
   background-color: darkorange;
-  z-index: 21;
+  z-index: -1;
 }
 .c {
   opacity: 1;
@@ -74,6 +75,19 @@ body {
   z-index: -2;
 }
 
+p {
+  background-color: rgba(255, 255, 0, 0.616);
+  font-size: 4rem;
+  padding: 10rem;
+
+  z-index: -1;
+}
+.div {
+  margin-top: -10rem;
+  background-color: yellow;
+  font-size: 4rem;
+  z-index: -2;
+}
 .gi2 {
 }
 .gi3 {
