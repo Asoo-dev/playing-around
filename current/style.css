@@ -24,7 +24,7 @@ body {
   width: 90%;
   height: 90%;
   gap: 2rem;
-  background-color: rgba(0, 255, 255, 0.452);
+  background-color: rgba(0, 255, 255, 0.555);
 }
 
 .gi {
@@ -42,7 +42,6 @@ body {
   align-items: center;
   justify-content: center; */
   /* background-color: #fff; */
-  position: relative;
 }
 
 .inner {
@@ -76,17 +75,20 @@ body {
 }
 
 p {
-  background-color: rgba(255, 255, 0, 0.616);
+  background-color: rgb(255, 255, 0);
   font-size: 4rem;
   padding: 10rem;
-
-  z-index: -1;
+  transform: scale(1.2);
 }
 .div {
-  margin-top: -10rem;
-  background-color: yellow;
+  margin-top: -8rem;
+  background-color: rgb(255, 0, 221);
   font-size: 4rem;
-  z-index: -2;
+}
+.div1 {
+  margin-top: -16rem;
+  background-color: rgb(119, 0, 255);
+  font-size: 4rem;
 }
 .gi2 {
 }
