@@ -25,8 +25,6 @@ body {
   height: 90%;
   gap: 2rem;
   background-color: rgba(0, 255, 255, 0.555);
-  isolation: isolate;
-  position: relative;
 }
 
 .gi {
@@ -47,11 +45,10 @@ body {
 }
 
 .inner {
-  position: relative;
+  /* position: relative; */
   /* top: 0;
   left: 0; */
-  width: 60rem;
-  height: 60rem;
+
   background-color: chartreuse;
   /* z-index: -2; */
 }
@@ -84,23 +81,24 @@ p {
   background-color: rgb(255, 255, 0);
   font-size: 4rem;
   padding: 10rem;
-  z-index: -10000;
-  position: relative;
+  /* z-index: -10000; */
+  /* opacity: 0.2; */
+  /* isolation: isolate; */
 }
 .div {
   /* margin-top: -8rem; */
   background-color: rgb(255, 0, 221);
   font-size: 4rem;
-  z-index: 10;
-  position: relative;
+  /* z-index: 10; */
+  /* opacity: 0.9; */
+  /* position: relative; */
 }
 .div1 {
-  margin-top: -16rem;
+  margin-top: -26rem;
   background-color: rgb(119, 0, 255);
   font-size: 4rem;
 
-  z-index: 6;
-  position: relative;
+  /* z-index: 6; */
 }
 .gi2 {
 }
