@@ -56,6 +56,15 @@ p {
   text-box-trim: trim-both;
   tab-size: 4;
   white-space: pre;
+  text-decoration: underline solid red;
+  text-underline-position: under;
+  text-underline-offset: 1.6rem;
+  transition: all 0.4s;
+}
+
+p:hover {
+  text-underline-offset: -0.5em;
+  text-underline-offset: -50%;
 }
 
 .gi2 {
