@@ -40,7 +40,6 @@ body {
   display: grid;
   place-items: center;
   border-radius: 10rem;
-  cursor: url(../border-img-svg.svg) 0 0, auto;
 }
 
 input {
@@ -53,15 +52,12 @@ input {
   background-color: #02012b;
   caret-color: aqua;
   color: rgb(223, 223, 223);
-  cursor: url(../border-img-svg.svg) 20 20, auto;
 }
-pre {
+p {
   background-color: aqua;
-  height: 40rem;
   width: 100rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  text-decoration: underline 0.4rem red;
+  text-decoration-skip-ink: none;
 }
 .gi2 {
 }
