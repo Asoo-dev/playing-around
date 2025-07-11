@@ -55,6 +55,14 @@ input {
   color: rgb(223, 223, 223);
   cursor: url(../border-img-svg.svg) 20 20, auto;
 }
+pre {
+  background-color: aqua;
+  height: 40rem;
+  width: 100rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .gi2 {
 }
 .gi3 {
