@@ -60,6 +60,7 @@ p {
   text-underline-position: under;
   text-underline-offset: 1.6rem;
   transition: all 0.4s;
+  user-select: all;
 }
 
 p:hover {
@@ -67,6 +68,10 @@ p:hover {
   text-underline-offset: -50%;
 }
 
+span {
+  visibility: hidden;
+  /* display: none; */
+}
 .gi2 {
 }
 .gi3 {
