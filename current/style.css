@@ -54,7 +54,10 @@ p {
   border-radius: 1.6rem;
   text-box-edge: ex text;
   text-box-trim: trim-both;
+  tab-size: 4;
+  white-space: pre;
 }
+
 .gi2 {
 }
 .gi3 {
