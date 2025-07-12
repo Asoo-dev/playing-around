@@ -36,7 +36,7 @@ body {
 }
 
 .gi1 {
-  background-color: rgb(183, 0, 255);
+  background-color: rgb(92, 14, 122);
   display: grid;
   place-items: center;
   border-radius: 10rem;
@@ -56,10 +56,28 @@ p {
   letter-spacing: 0.1em;
   word-spacing: 1em;
   /* text-box: trim-both cap text; */
-  content-visibility: hidden;
-  transition: all 0.4s;
+  /* filter: blur(1em); */
+  /* filter: brightness(290%); */
+  /* filter: brightness(290%); */
+  /* filter: grayscale(600%); */
 }
 
+img {
+  /* filter: brightness(1000%); */
+  /* filter: contrast(2); */
+  /* filter: drop-shadow(0 1rem 3rem rgb(255, 2, 2)); */
+  /* filter: grayscale(600%); */
+  /* filter: hue-rotate(280deg); */
+  /* filter: invert(70%); */
+  /* filter: grayscale(1) brightness(0.4) opacity(50%); */
+  /* filter: saturate(1000%); */
+  /* filter: sepia(50%); */
+  /* opacity: 0.5; */
+  transition: all 1s ease-out;
+}
+
+img:hover {
+}
 .gi2 {
 }
 .gi3 {
