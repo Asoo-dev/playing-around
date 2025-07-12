@@ -54,6 +54,7 @@ p {
   border-radius: 1.6rem;
 
   letter-spacing: 0.1em;
+  word-spacing: 1em;
   /* text-box: trim-both cap text; */
 }
 
