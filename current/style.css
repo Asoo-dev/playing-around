@@ -37,8 +37,8 @@ body {
 
 .gi1 {
   background-color: rgb(183, 0, 255);
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
   border-radius: 10rem;
 }
 
@@ -55,22 +55,31 @@ p {
   letter-spacing: 0.1em;
 }
 
-img {
-  transition: all 1s ease-out;
-  margin-top: -11rem;
-  transition: all 1s;
+.img {
+  /* transition: all 1s ease-out; */
+  /* margin-top: -11rem; */
+  background: linear-gradient(45deg, red, blue, transparent 60%, transparent);
+  display: inline;
+  shape-outside: linear-gradient(
+    45deg,
+    red,
+    blue,
+    transparent 60%,
+    transparent
+  );
+  float: left;
+  /* border-radius: 50%; */
+  height: 50rem;
+  width: 50rem;
+  shape-image-threshold: 0.8;
+  /* opacity: 0.5; */
+  /* shape-margin: 1%; */
+  /* margin-right: 10rem; */
+  /* display: inline-block; */
 }
-p + p {
-  font-weight: 900;
-  margin-top: -4rem;
-}
-.p {
-  margin-bottom: 100rem;
-  background-color: #fff;
-  font-size: 4rem;
-  max-width: 40rem;
-  padding: 2rem;
-  overflow-wrap: anywhere;
+p {
+  font-size: 3.2rem;
+  /* display: inline; */
 }
 .gi2 {
 }
