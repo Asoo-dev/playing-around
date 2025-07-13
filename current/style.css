@@ -56,11 +56,15 @@ p {
 }
 
 p {
+  /* text-align: end; */
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  /* text-align: ; */
   font-size: 6.2rem;
   /* display: inline; */
-  hyphens: manual;
-  hyphens: none;
-  hyphens: auto;
+  writing-mode: vertical-rl;
+  /* text-orientation: upright; */
 }
 .gi2 {
 }
