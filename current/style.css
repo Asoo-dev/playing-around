@@ -55,31 +55,12 @@ p {
   letter-spacing: 0.1em;
 }
 
-.img {
-  /* transition: all 1s ease-out; */
-  /* margin-top: -11rem; */
-  background: linear-gradient(45deg, red, blue, transparent 60%, transparent);
-  display: inline;
-  shape-outside: linear-gradient(
-    45deg,
-    red,
-    blue,
-    transparent 60%,
-    transparent
-  );
-  float: left;
-  /* border-radius: 50%; */
-  height: 50rem;
-  width: 50rem;
-  shape-image-threshold: 0.8;
-  /* opacity: 0.5; */
-  /* shape-margin: 1%; */
-  /* margin-right: 10rem; */
-  /* display: inline-block; */
-}
 p {
-  font-size: 3.2rem;
+  font-size: 6.2rem;
   /* display: inline; */
+  hyphens: manual;
+  hyphens: none;
+  hyphens: auto;
 }
 .gi2 {
 }
