@@ -42,10 +42,6 @@ body {
   /* display: flex; */
   gap: 15rem;
   border-radius: 10rem;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  /* writing-mode: sideways-lr; */
-  /* writing-mode: horizontal-tb; */
 }
 .div {
   display: inline-block;
@@ -53,9 +49,7 @@ body {
   padding: 30rem;
   background-color: aquamarine;
 }
-span {
-  text-combine-upright: all;
-}
+
 .div1 {
   /* margin-inline-end: 30rem; */
 }
@@ -77,6 +71,7 @@ p {
 }
 
 p {
+  /* text-align: end; */
   display: inline-block;
   padding: 20rem;
   /* text-align: center; */
@@ -85,10 +80,12 @@ p {
   /* height: 90%; */
   /* text-align: ; */
   font-size: 6.2rem;
-  /* display: inline; */
-  /* writing-mode: vertical-lr; */
-  /* text-orientation: upright; */
-  /* writing-mode: sideways-rl; */
+  line-break: auto;
+}
+p:first-of-type {
+  font-size: 30rem;
+  max-width: 400rem;
+  word-break: break-all;
 }
 .gi2 {
 }
