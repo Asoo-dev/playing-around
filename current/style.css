@@ -42,7 +42,7 @@ body {
   /* display: flex; */
   gap: 15rem;
   border-radius: 10rem;
-  /* writing-mode: vertical-rl; */
+  writing-mode: vertical-rl;
   text-orientation: upright;
   /* writing-mode: sideways-lr; */
   /* writing-mode: horizontal-tb; */
@@ -52,6 +52,9 @@ body {
   margin: 10rem;
   padding: 30rem;
   background-color: aquamarine;
+}
+span {
+  text-combine-upright: all;
 }
 .div1 {
   /* margin-inline-end: 30rem; */
