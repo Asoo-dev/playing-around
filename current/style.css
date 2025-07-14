@@ -79,14 +79,23 @@ p {
   /* width: 100%; */
   /* height: 90%; */
   /* text-align: ; */
-  font-size: 6.2rem;
+  font-size: 3.2rem;
   line-break: auto;
+  max-width: 2000rem;
+  /* text-wrap-mode: nowrap; */
+  /* text-wrap-style: pretty; */
+  text-align: center;
 }
-p:first-of-type {
-  font-size: 30rem;
-  max-width: 400rem;
-  word-break: break-all;
+p:nth-of-type(2) {
+  text-wrap-style: balance;
 }
+p:nth-of-type(3) {
+  text-wrap-style: pretty;
+}
+p:nth-of-type(4) {
+  text-wrap-style: stable;
+}
+
 .gi2 {
 }
 .gi3 {
