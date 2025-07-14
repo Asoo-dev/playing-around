@@ -42,9 +42,10 @@ body {
   /* display: flex; */
   gap: 15rem;
   border-radius: 10rem;
-  writing-mode: vertical-lr;
+  /* writing-mode: vertical-rl; */
+  text-orientation: upright;
   /* writing-mode: sideways-lr; */
-  writing-mode: horizontal-tb;
+  /* writing-mode: horizontal-tb; */
 }
 .div {
   display: inline-block;
