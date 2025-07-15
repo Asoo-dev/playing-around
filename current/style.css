@@ -80,21 +80,13 @@ pre {
   /* height: 90%; */
   font-size: 3.2rem;
   max-width: 2000rem;
-  text-align: center;
-  /* white-space-collapse: preserve; */
-  /* white-space: pre-wrap; */
-  /* white-space: pre-line; */
+  quotes: "“" "”" "‘" "’" "," ",";
+  /* quotes: none; */
 }
-pre:nth-of-type(1) {
-  white-space: pre;
+span {
+  direction: rtl;
+  unicode-bidi: isolate;
 }
-pre:nth-of-type(2) {
-  white-space: pre-wrap;
-}
-pre:nth-of-type(3) {
-  white-space: pre-line;
-}
-
 .gi2 {
 }
 .gi3 {
