@@ -80,12 +80,8 @@ pre {
   /* height: 90%; */
   font-size: 3.2rem;
   max-width: 2000rem;
-  quotes: "“" "”" "‘" "’" "," ",";
-  /* quotes: none; */
 }
 span {
-  direction: rtl;
-  unicode-bidi: isolate;
 }
 .gi2 {
 }
