@@ -54,32 +54,10 @@ body {
   /* margin-inline-end: 30rem; */
 }
 
-p,
-pre {
-  margin: 1em;
-  /* background-color: rgb(55, 0, 255); */
-  /* height: 20rem;
-  width: 50rem; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* padding: 5.2rem 6.4rem; */
-  border-radius: 1.6rem;
-
-  letter-spacing: 0.1em;
+p {
 }
 
-p,
-pre {
-  /* text-align: end; */
-  display: inline-block;
-  padding: 20rem;
-  /* text-align: center; */
-  background-color: aqua;
-  /* width: 100%; */
-  /* height: 90%; */
-  font-size: 3.2rem;
-  max-width: 2000rem;
+p {
 }
 span {
 }
