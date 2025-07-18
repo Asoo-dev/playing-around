@@ -53,7 +53,10 @@ body {
 .div1 {
   /* margin-inline-end: 30rem; */
 }
-
+::first-letter {
+  font-size: 40rem;
+  color: aqua;
+}
 p {
 }
 
