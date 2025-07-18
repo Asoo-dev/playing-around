@@ -53,17 +53,28 @@ body {
 .div1 {
   /* margin-inline-end: 30rem; */
 }
-::first-letter {
-  font-size: 40rem;
-  color: aqua;
-}
 
-::first-line {
-  background-color: red;
-  word-spacing: 3rem;
-  text-decoration: underline 2rem yellow;
+input {
+  width: 100rem;
+  height: 20rem;
+  margin: 10rem auto;
+  background-color: rgb(4, 4, 68);
+  border: none;
+  /* appearance: none; */
+  padding: 4rem;
+  font-size: 8rem;
+  color: #d3d3f1;
+  border-radius: 4rem;
 }
-
+input::placeholder {
+  color: #9a9ad4;
+  background-color: rgba(0, 255, 255, 0.308);
+  box-shadow: 0 1rem 0 2rem red;
+}
+input:focus {
+  outline: 8px solid orangered;
+  outline-offset: 2rem;
+}
 p {
 }
 
