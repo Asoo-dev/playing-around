@@ -75,6 +75,11 @@ input:focus {
   outline: 8px solid orangered;
   outline-offset: 2rem;
 }
+
+p::selection {
+  color: aqua;
+  background-color: black;
+}
 p {
 }
 
