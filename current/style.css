@@ -57,6 +57,13 @@ body {
   font-size: 40rem;
   color: aqua;
 }
+
+::first-line {
+  background-color: red;
+  word-spacing: 3rem;
+  text-decoration: underline 2rem yellow;
+}
+
 p {
 }
 
