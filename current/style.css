@@ -76,10 +76,13 @@ input:focus {
   outline-offset: 2rem;
 }
 
-p::selection {
-  color: aqua;
-  background-color: black;
+input::file-selector-button {
+  background-color: red;
+  border-radius: 2rem;
+  padding: 4rem;
+  font-weight: 900;
 }
+
 p {
 }
 
