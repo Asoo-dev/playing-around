@@ -83,6 +83,10 @@ input::file-selector-button {
   font-weight: 900;
 }
 
+::spelling-error {
+  text-decoration: wavy red underline;
+}
+
 p {
 }
 
