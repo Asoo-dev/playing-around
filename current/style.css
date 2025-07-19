@@ -66,29 +66,13 @@ input {
   color: #d3d3f1;
   border-radius: 4rem;
 }
-input::placeholder {
-  color: #9a9ad4;
-  background-color: rgba(0, 255, 255, 0.308);
-  box-shadow: 0 1rem 0 2rem red;
-}
-input:focus {
-  outline: 8px solid orangered;
-  outline-offset: 2rem;
+
+:read-only {
+  color: yellow;
 }
 
-input::file-selector-button {
-  background-color: red;
-  border-radius: 2rem;
-  padding: 4rem;
-  font-weight: 900;
-}
-
-details[open]::details-content {
-  color: rgb(0, 0, 0);
-  padding: 0.5em;
-  border: thin solid grey;
-  background-color: aqua;
-  padding: 10rem;
+:read-write {
+  color: chartreuse;
 }
 
 p {
