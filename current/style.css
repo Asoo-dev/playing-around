@@ -74,7 +74,16 @@ input {
 :read-write {
   color: chartreuse;
 }
+:required {
+  color: red;
+}
 
+:enabled {
+  background-color: greenyellow;
+}
+:disabled {
+  background-color: red;
+}
 p {
 }
 
