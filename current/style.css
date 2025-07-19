@@ -83,10 +83,14 @@ input::file-selector-button {
   font-weight: 900;
 }
 
-::spelling-error {
-  text-decoration: wavy red underline;
+ul {
+  margin: 10rem;
 }
-
+::marker {
+  content: "&*  ";
+  color: aqua;
+  font-size: 10rem;
+}
 p {
 }
 
