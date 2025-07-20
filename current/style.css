@@ -72,8 +72,18 @@ a {
   font-size: 10rem;
   color: white;
 }
-:any-link {
-  color: blue;
+a:link {
+  color: red;
+}
+a:visited {
+  color: rgb(0, 247, 255);
+}
+
+a:active {
+  color: greenyellow;
+}
+:target {
+  background-color: black;
 }
 p {
 }
