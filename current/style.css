@@ -68,13 +68,9 @@ input {
   transition: all 1s;
 }
 
-:placeholder-shown {
-  /* color: red; */
-  background-color: red;
-  border-radius: 10rem;
-  border: 1rem solid aqua;
+:optional {
+  background-color: aqua;
 }
-
 p {
 }
 
