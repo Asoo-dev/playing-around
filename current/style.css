@@ -68,9 +68,8 @@ input {
   transition: all 1s;
 }
 
-:default {
+:indeterminate {
   outline: 2rem solid red;
-  background-color: red;
 }
 
 p {
