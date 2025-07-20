@@ -68,17 +68,13 @@ input {
   transition: all 1s;
 }
 
-:indeterminate {
-  outline: 2rem solid red;
+a {
+  font-size: 10rem;
+  color: white;
 }
-
-:user-invalid {
-  background-color: red;
+:any-link {
+  color: blue;
 }
-:user-valid {
-  background-color: green;
-}
-
 p {
 }
 
