@@ -72,10 +72,10 @@ input {
   outline: 2rem solid red;
 }
 
-:invalid {
+:user-invalid {
   background-color: red;
 }
-:valid {
+:user-valid {
   background-color: green;
 }
 
