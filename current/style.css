@@ -68,7 +68,7 @@ input {
   transition: all 1s;
 }
 
-:checked {
+:default {
   outline: 2rem solid red;
   background-color: red;
 }
