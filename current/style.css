@@ -68,10 +68,11 @@ input {
   transition: all 1s;
 }
 
-input:autofill {
-
-  border: 2rem solid aqua;
+:checked {
+  outline: 2rem solid red;
+  background-color: red;
 }
+
 p {
 }
 
