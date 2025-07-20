@@ -68,8 +68,9 @@ input {
   transition: all 1s;
 }
 
-:optional {
-  background-color: aqua;
+input:autofill {
+
+  border: 2rem solid aqua;
 }
 p {
 }
