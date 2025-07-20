@@ -67,23 +67,14 @@ input {
   border-radius: 4rem;
 }
 
-:read-only {
-  color: yellow;
-}
-
-:read-write {
-  color: chartreuse;
-}
-:required {
-  color: red;
-}
-
-:enabled {
-  background-color: greenyellow;
-}
-:disabled {
+:in-range {
+  accent-color: red;
   background-color: red;
 }
+:out-of-range {
+  background-color: rgb(61, 223, 61);
+}
+
 p {
 }
 
