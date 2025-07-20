@@ -72,6 +72,13 @@ input {
   outline: 2rem solid red;
 }
 
+:invalid {
+  background-color: red;
+}
+:valid {
+  background-color: green;
+}
+
 p {
 }
 
