@@ -75,6 +75,9 @@ input {
   border: 10rem solid red;
   background-color: aqua;
 }
+form:focus-within {
+  border: 2rem dashed red;
+}
 p {
 }
 span {
