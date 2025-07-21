@@ -77,7 +77,7 @@
         </div>
 
         <div>
-          <button class="fo">oooooo</button>
+          <button class="toggle">oooooo</button>
           <button class="foo">vvvvvvvvvv</button>
           <a href="" class="fo">focus</a>
           <a href="" class="foo">focus-visible</a>
@@ -86,7 +86,7 @@
           <a href="https://www.gogle.com">google</a>
           <a href="https://developer.mozilla.org/missing-2">mdn</a>
         </div>
-        <details open>
+        <details>
           <summary>Example summary</summary>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <p>
@@ -184,5 +184,16 @@
       <!-- <div class="gi gi19">19</div> -->
       <!-- <div class="gi gi20">20</div> -->
     </div>
+    <script>
+      document.querySelector(".toggle").addEventListener("click", (event) => {
+        if (document.fullscreenElement) {
+          // If there is a fullscreen element, exit full screen.
+          document.exitFullscreen();
+          return;
+        }
+        // Make the .element div fullscreen.
+        document.querySelector("body").requestFullscreen();
+      });
+    </script>
   </body>
 </html>
