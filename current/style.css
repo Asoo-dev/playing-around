@@ -80,6 +80,11 @@ input {
   margin: 10rem;
 }
 
+div:empty {
+  background-color: yellow;
+  height: 40rem;
+}
+
 p {
 }
 span {
