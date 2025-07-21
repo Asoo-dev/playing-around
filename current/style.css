@@ -73,19 +73,27 @@ a {
   color: white;
 }
 
-:popover-open {
+[popover] {
   position: fixed;
   inset: 0;
   width: fit-content;
   height: fit-content;
   margin: auto;
   border: solid;
-  padding: 2.25em;
+  padding: 0.25em;
   overflow: auto;
-  color: ActiveText;
-  background-color: Mark;
+  color: CanvasText;
+  background-color: Canvas;
 }
-
+:popover-open {
+  width: 2000px;
+  height: 1000px;
+  position: absolute;
+  inset: unset;
+  bottom: 50px;
+  right: 50px;
+  margin: 0;
+}
 p {
 }
 
