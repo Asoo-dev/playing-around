@@ -85,6 +85,12 @@ div:empty {
   height: 40rem;
 }
 
+:lang(ar) {
+  background-color: rgb(204, 52, 224);
+}
+:lang(en) {
+  background-color: gold;
+}
 p {
 }
 span {
