@@ -72,19 +72,20 @@ a {
   font-size: 10rem;
   color: white;
 }
-a:link {
-  color: red;
-}
-a:visited {
-  color: rgb(0, 247, 255);
+
+:popover-open {
+  position: fixed;
+  inset: 0;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border: solid;
+  padding: 2.25em;
+  overflow: auto;
+  color: ActiveText;
+  background-color: Mark;
 }
 
-a:active {
-  color: greenyellow;
-}
-:target {
-  background-color: black;
-}
 p {
 }
 
