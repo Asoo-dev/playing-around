@@ -68,37 +68,16 @@ input {
   transition: all 1s;
 }
 
-a {
-  font-size: 10rem;
-  color: white;
-}
-
-[popover] {
-  position: fixed;
-  inset: 0;
-  width: fit-content;
-  height: fit-content;
-  margin: auto;
-  border: solid;
-  padding: 0.25em;
-  overflow: auto;
-  color: CanvasText;
-  background-color: Canvas;
-}
-:popover-open {
-  width: 2000px;
-  height: 1000px;
-  position: absolute;
-  inset: unset;
-  bottom: 50px;
-  right: 50px;
-  margin: 0;
-}
-
 #p1:hover + p {
   background-color: red;
 }
-p {
+
+:dir(ltr) {
+  background-color: aqua;
+}
+:dir(rtl) {
+  background-color: red;
+  margin: 10rem;
 }
 
 p {
