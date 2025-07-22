@@ -83,6 +83,11 @@ body:fullscreen {
   box-shadow: inset 0 0 0 10rem red;
   overflow: scroll;
 }
+
+:only-child {
+  background-color: red;
+}
+
 p {
 }
 span {
