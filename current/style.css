@@ -84,8 +84,12 @@ body:fullscreen {
   overflow: scroll;
 }
 
-p:only-of-type {
+:first-child {
   background-color: red;
+}
+
+p:last-child {
+  background-color: aqua;
 }
 
 p {
