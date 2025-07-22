@@ -84,11 +84,11 @@ body:fullscreen {
   overflow: scroll;
 }
 
-:first-child {
+:first-of-type {
   background-color: red;
 }
 
-p:last-child {
+p:last-of-type {
   background-color: aqua;
 }
 
