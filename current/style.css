@@ -74,9 +74,7 @@ li:nth-child(even) {
   /* scroll-snap-align: center; */
   /* border: 6rem solid yellow; */
 }
-li:nth-child(2) {
-  scroll-snap-align: start;
-}
+
 
 .gi2 {
 }
