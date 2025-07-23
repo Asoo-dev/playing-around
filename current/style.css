@@ -70,15 +70,16 @@ li {
   /* scroll-margin: 50rem 0 0 0; */
 }
 li:nth-child(even) {
-  scroll-margin: 50rem 0 0 0;
-  /* height: 50%; */
+  /* scroll-margin: 50rem 0 0 0; */
+  height: 50%;
   /* scroll-snap-align: start; */
   /* scroll-snap-align: center; */
   /* border: 6rem solid yellow; */
 }
 
 li:nth-child(2) {
-  /* scroll-snap-align: center; */
+  height: 150%;
+  scroll-snap-align: start end;
 }
 
 .gi2 {
