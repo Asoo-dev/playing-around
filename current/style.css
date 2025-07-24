@@ -70,8 +70,10 @@ li {
   scroll-margin: 50rem 0 0 0;
 }
 
-div > article > p {
-  background-color: red;
+
+
+* + p {      push
+  background-color: aqua;
   height: 100rem;
   font-size: 10rem;
 }
