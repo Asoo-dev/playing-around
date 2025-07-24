@@ -75,8 +75,10 @@ p {
   height: 100rem;
   font-size: 10rem;
 }
-div ~ p {
-  background-color: yellow;
+div,
+p,
+* ~ li {
+  background-color: red;
 }
 
 .gi2 {
