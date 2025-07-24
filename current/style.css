@@ -70,12 +70,13 @@ li {
   scroll-margin: 50rem 0 0 0;
 }
 
-
-
-* + p {      push
-  background-color: aqua;
+p {
+  /* background-color: yellow; */
   height: 100rem;
   font-size: 10rem;
+}
+:is(div, span) + p {
+  background-color: yellow;
 }
 
 .gi2 {
