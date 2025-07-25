@@ -70,35 +70,53 @@ li {
   scroll-margin: 50rem 0 0 0;
 }
 
-[class] {
-  background-color: aqua;
-}
-[class="li l l7"] {
-  background-color: purple;
-}
-[class^="li"] {
-  /* background-color: yellow; */
-}
-[class$="4"] {
-  background-color: blue;
-}
-[class~="l"] {
-  /* background-color: red; */
-}
-[href*="google"] {
+/* article {
   background-color: red;
+  padding: 40rem;
+  p {
+    font-size: 10rem;
+    &:hover {
+      background-color: blue;
+    }
+  }
+  &:hover {
+    background-color: yellow;
+  }
+} */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  font-family: system-ui;
+  font-size: 8rem;
+  color: white;
 }
-
-[lang|="ar"] {
-  background-color: navajowhite;
+.card {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  & h2 {
+    /* equivalent to `.card h2` */
+    color: slateblue;
+    .featured & {
+      /* equivalent to `:is(.card h2):is(.featured h2)` */
+      color: tomato;
+    }
+  }
+  p {
+    .ps & {
+      background-color: chartreuse;
+    }
+    span {
+      .ps & {
+        background-color: blue;
+      }
+    }
+  }
 }
-[lang|="Ar" s] {
-  background-color: coral;
-}
-
-[class~="L" i] {
-  /* background-color: red; */
-}
+/* :is(.card p):is(.ps p) {
+  background-color: chartreuse;
+} */
 .gi2 {
 }
 .gi3 {
