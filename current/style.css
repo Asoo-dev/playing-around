@@ -70,17 +70,35 @@ li {
   scroll-margin: 50rem 0 0 0;
 }
 
-p {
-  /* background-color: yellow; */
-  height: 100rem;
-  font-size: 10rem;
+[class] {
+  background-color: aqua;
 }
-div,
-p,
-* ~ li {
+[class="li l l7"] {
+  background-color: purple;
+}
+[class^="li"] {
+  /* background-color: yellow; */
+}
+[class$="4"] {
+  background-color: blue;
+}
+[class~="l"] {
+  /* background-color: red; */
+}
+[href*="google"] {
   background-color: red;
 }
 
+[lang|="ar"] {
+  background-color: navajowhite;
+}
+[lang|="Ar" s] {
+  background-color: coral;
+}
+
+[class~="L" i] {
+  /* background-color: red; */
+}
 .gi2 {
 }
 .gi3 {
