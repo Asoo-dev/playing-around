@@ -72,7 +72,7 @@ li.ss {
 }
 ol {
   list-style: none;
-  counter-set: fc sc;
+  counter-reset: fc sc;
 }
 li {
   background-color: aqua;
@@ -82,7 +82,7 @@ li {
 }
 li::before {
   content: counter(fc) "-" counter(sc) ".  ";
-  counter-increment: fc sc;
+  counter-increment: fc -10 sc;
 }
 /* li:nth-child(10)::before {
   counter-set: fc 100;
