@@ -72,8 +72,7 @@ li.ss {
 }
 ol {
   list-style: none;
-  /* overflow: scroll; */
-  /* counter-reset: fc 1; */
+  counter-set: fc sc;
 }
 li {
   background-color: aqua;
@@ -82,8 +81,8 @@ li {
   font-weight: 900;
 }
 li::before {
-  content: counter(fc) ".. ";
-  counter-increment: fc 1;
+  content: counter(fc) "-" counter(sc) ".  ";
+  counter-increment: fc sc;
 }
 /* li:nth-child(10)::before {
   counter-set: fc 100;
