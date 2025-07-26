@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  /* counter-reset: fc 1; */
 }
 
 body {
@@ -34,7 +35,7 @@ body {
   /* background-color: rgb(0, 255, 255); */
   height: 100%;
   /* overflow-y: scroll; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .gi1 {
@@ -45,7 +46,7 @@ body {
   /* border-radius: 10rem; */
 }
 
-ul {
+ul.ss {
   height: 100%;
   /* scrollbar-width: thin; */
   /* display: flex; */
@@ -55,7 +56,7 @@ ul {
   scroll-snap-type: y mandatory;
   scroll-padding: 50rem 0 0 0;
 }
-li {
+li.ss {
   background-color: aqua;
   /* opacity: 0.3; */
   list-style: none;
@@ -69,53 +70,23 @@ li {
   /* scroll-snap-align: center; */
   scroll-margin: 50rem 0 0 0;
 }
-
-/* article {
-  background-color: red;
-  padding: 40rem;
-  p {
-    font-size: 10rem;
-    &:hover {
-      background-color: blue;
-    }
-  }
-  &:hover {
-    background-color: yellow;
-  }
-} */
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 0.25rem;
-  font-family: system-ui;
-  font-size: 8rem;
-  color: white;
+ol {
+  list-style: none;
+  /* overflow: scroll; */
+  /* counter-reset: fc 1; */
 }
-.card {
-  padding: 0.5rem;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  & h2 {
-    /* equivalent to `.card h2` */
-    color: slateblue;
-    .featured & {
-      /* equivalent to `:is(.card h2):is(.featured h2)` */
-      color: tomato;
-    }
-  }
-  p {
-    .ps & {
-      background-color: chartreuse;
-    }
-    span {
-      .ps & {
-        background-color: blue;
-      }
-    }
-  }
+li {
+  background-color: aqua;
+  margin: 0 20rem;
+  font-size: 10rem;
+  font-weight: 900;
 }
-/* :is(.card p):is(.ps p) {
-  background-color: chartreuse;
+li::before {
+  content: counter(fc) ".. ";
+  counter-increment: fc 1;
+}
+/* li:nth-child(10)::before {
+  counter-set: fc 100;
 } */
 .gi2 {
 }
