@@ -79,13 +79,13 @@ li {
   margin: 0 20rem;
   font-size: 10rem;
   font-weight: 900;
-  counter-increment: fc -10 sc;
+  counter-increment: fc sc;
 }
 li::before {
-  content: counter(fc) "-" counter(sc) ".  ";
+  content: counter(fc, arabic-indic) "-" counter(sc) ".  ";
 }
 li:first-child {
-  counter-increment: none;
+  /* counter-increment: none; */
 }
 /* li:nth-child(10)::before {
   counter-set: fc 100;
