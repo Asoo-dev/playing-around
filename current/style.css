@@ -89,9 +89,9 @@ li {
 }
 
 @counter-style abcd {
-  system: numeric;
-  symbols: "0" "1" "2" "3" "4" "5";
-  pad: "0" 3;
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ;
+  fallback: upper-latin;
 }
 
 li::marker {
