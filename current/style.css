@@ -111,6 +111,8 @@ li:first-child {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-style: italic;
+  font-size: 160%;
+  font-size: 1.6em;
   /* font-family: Arial; */
 }
 li {
