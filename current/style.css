@@ -8,7 +8,6 @@
 
 html {
   font-size: 62.5%;
-  /* counter-reset: fc 1; */
 }
 
 body {
@@ -46,7 +45,7 @@ body {
   /* border-radius: 10rem; */
 }
 
-ul.ss {
+ul {
   height: 100%;
   /* scrollbar-width: thin; */
   /* display: flex; */
@@ -56,7 +55,7 @@ ul.ss {
   scroll-snap-type: y mandatory;
   scroll-padding: 50rem 0 0 0;
 }
-li.ss {
+li {
   background-color: aqua;
   /* opacity: 0.3; */
   list-style: none;
@@ -69,51 +68,55 @@ li.ss {
   scroll-snap-align: start;
   /* scroll-snap-align: center; */
   scroll-margin: 50rem 0 0 0;
+  padding: 8rem 4rem;
+  font-size: 16rem;
+  /* font-family: sans-serif; */
 }
 ol {
-  list-style: none;
-  /* counter-reset: fc; */
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Light.ttf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-LightItalic.ttf);
+  font-weight: lighter;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+li:first-child {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  /* font-family: Arial; */
 }
 li {
   background-color: aqua;
-  margin: 0 20rem;
-  font-size: 10rem;
-  font-weight: 900;
-  /* counter-increment: fc; */
-  list-style: abcd;
+  margin: 0 4rem;
 }
-@counter-style ca {
-  system: cyclic 4;
-  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
-  suffix: " ";
-}
-
-@counter-style abcd {
-  system: additive;
-  /* system: extends circled-letters; */
-  /* symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ "\25A0"; */
-  /* fallback: upper-latin; */
-  /* pad: 2 "0"; */
-  /* prefix: "("; */
-  /* suffix: "): "; */
-  additive-symbols: 10 "_", 4 "-", 3 "0";
-  /* range: 5 11, 15 26; */
-}
-
-li::marker {
-  color: yellow;
-}
-
-/* li::before {
-  content: counters(fc, "-", lower-roman) "))  " "=== "
-    counters(fc, "-", upper-latin) "))  ";
-} */
-li:first-child {
-  /* counter-increment: none; */
-}
-/* li:nth-child(10)::before {
-  counter-set: fc 100;
-} */
 .gi2 {
 }
 .gi3 {
