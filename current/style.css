@@ -109,11 +109,18 @@ ol {
 }
 li:first-child {
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+  font-weight: lighter;
+  /* font-style: italic; */
   font-size: 160%;
   font-size: 1.6em;
+  /* font-kerning: none; */
   /* font-family: Arial; */
+}
+span {
+  /* letter-spacing: -4.3rem; */
+}
+span:nth-of-type(2) {
+  font-kerning: none;
 }
 li {
   background-color: aqua;
