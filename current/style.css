@@ -89,11 +89,14 @@ li {
 }
 
 @counter-style abcd {
-  system: extends numeric;
-  /* symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ; */
-  fallback: upper-latin;
-  negative: "(-" ")";
-  suffix: ": ";
+  system: cyclic;
+  /* system: extends circled-letters; */
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ "\25A0";
+  /* fallback: upper-latin; */
+  /* pad: 2 "0"; */
+  /* prefix: "("; */
+  /* suffix: "): "; */
+  range: 5 11, 15 26;
 }
 
 li::marker {
