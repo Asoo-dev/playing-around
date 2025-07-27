@@ -72,17 +72,17 @@ li.ss {
 }
 ol {
   list-style: none;
-  counter-reset: fc sc;
+  counter-reset: fc;
 }
 li {
   background-color: aqua;
   margin: 0 20rem;
   font-size: 10rem;
   font-weight: 900;
-  counter-increment: fc sc;
+  counter-increment: fc;
 }
 li::before {
-  content: counter(fc, arabic-indic) "-" counter(sc) ".  ";
+  content: counters(fc, "-", lower-roman) "))  ";
 }
 li:first-child {
   /* counter-increment: none; */
