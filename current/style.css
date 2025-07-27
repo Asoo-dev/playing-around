@@ -72,18 +72,37 @@ li.ss {
 }
 ol {
   list-style: none;
-  counter-reset: fc;
+  /* counter-reset: fc; */
 }
 li {
   background-color: aqua;
   margin: 0 20rem;
   font-size: 10rem;
   font-weight: 900;
-  counter-increment: fc;
+  /* counter-increment: fc; */
+  list-style: abcd;
 }
-li::before {
-  content: counters(fc, "-", lower-roman) "))  ";
+@counter-style ca {
+  system: cyclic 4;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
 }
+
+@counter-style abcd {
+  system: numeric;
+  symbols: "0" "1" "2" "3" "4" "5";
+  suffix: ") ";
+  prefix: "(";
+}
+
+li::marker {
+  color: yellow;
+}
+
+/* li::before {
+  content: counters(fc, "-", lower-roman) "))  " "=== "
+    counters(fc, "-", upper-latin) "))  ";
+} */
 li:first-child {
   /* counter-increment: none; */
 }
