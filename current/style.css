@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 *,
 ::before,
 ::after {
@@ -141,19 +142,18 @@ ol {
 
 span {
   /* letter-spacing: -4.3rem; */
-  font-variant-caps: titling-caps;
+  /* font-variant-caps: titling-caps; */
+  font-variant-numeric: ordinal;
 }
 li {
-  font-variant-caps: small-caps;
+  /* font-variant-caps: small-caps; */
 }
 .li:first-child {
+  font-family: "Open Sans", serif;
   /* font-family: "Montserrat"; */
   background-color: aqua;
   margin: 0 4rem;
-  /* font-variant-caps: small-caps; */
-  /* font-variant-caps: all-small-caps; */
-  font-variant-caps: titling-caps;
-  font-variant-emoji: emoji;
+  font-variant-numeric: diagonal-fractions;
 }
 
 .gi2 {
