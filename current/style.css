@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 
 *,
 ::before,
@@ -15,7 +15,6 @@ html {
 body {
   font-family: sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-family: "narin", sans-serif;
   /* font-weight: 400; */
   height: 100vh;
   background-color: #02012b;
@@ -95,14 +94,6 @@ ol {
 } */
 
 @font-face {
-  font-family: "Mon";
-  src: url(../fonts/Montserrat/ttf/Montserrat-VariableFont_wght.ttf);
-}
-/* @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto/Roboto-VariableFont_wdth\wght.ttf);
-} */
-@font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-Regular.ttf);
   /* src: url(../fonts/Montserrat/ttf/Montserrat-Regular.ttf); */
@@ -151,20 +142,18 @@ ol {
 } */
 
 span {
+  font-optical-sizing: auto;
 }
 li {
   /* font-variant-caps: small-caps; */
 }
 .li:first-child {
-  font-family: "Roboto", monospace;
-  /* font-family: "Montserrat"; */
+  font-size: 10rem;
+  font-family: "Montserrat", monospace;
+  font-family: "Bodoni Moda", monospace;
   background-color: aqua;
   margin: 0 4rem;
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: 100; */
-  font-style: normal;
-  font-variation-settings: "wght" 1000 "opsz" 10;
+  font-optical-sizing: none;
 }
 
 .gi2 {
