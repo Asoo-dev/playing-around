@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 *,
 ::before,
 ::after {
@@ -92,6 +93,15 @@ ol {
   font-weight: 300;
   font-style: italic;
 } */
+
+@font-face {
+  font-family: "Mon";
+  src: url(../fonts/Montserrat/ttf/Montserrat-VariableFont_wght.ttf);
+}
+/* @font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-VariableFont_wdth\wght.ttf);
+} */
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-Regular.ttf);
@@ -141,19 +151,20 @@ ol {
 } */
 
 span {
-  /* letter-spacing: -4.3rem; */
-  /* font-variant-caps: titling-caps; */
-  font-variant-numeric: ordinal;
 }
 li {
   /* font-variant-caps: small-caps; */
 }
 .li:first-child {
-  font-family: "Open Sans", serif;
+  font-family: "Roboto", monospace;
   /* font-family: "Montserrat"; */
   background-color: aqua;
   margin: 0 4rem;
-  font-variant-numeric: diagonal-fractions;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 100; */
+  font-style: normal;
+  font-variation-settings: "wght" 1000 "opsz" 10;
 }
 
 .gi2 {
