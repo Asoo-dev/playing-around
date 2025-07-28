@@ -11,7 +11,9 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 400; */
   height: 100vh;
   background-color: #02012b;
   display: flex;
@@ -73,27 +75,40 @@ li {
   /* font-family: sans-serif; */
 }
 ol {
+  /* font-family: "Montserrat", sans-serif; */
 }
-@font-face {
-  font-family: "Montserrat";
-  src: url(../fonts/Montserrat/ttf/Montserrat-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url(../fonts/Montserrat/ttf/Montserrat-BoldItalic.ttf);
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
+
+/* @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-Light.ttf);
-  font-weight: lighter;
+  font-weight: 300;
 }
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-LightItalic.ttf);
-  font-weight: lighter;
+  font-weight: 300;
+  font-style: italic;
+} */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+/* @font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/ttf/Montserrat-BoldItalic.ttf);
+  font-weight: 700;
   font-style: italic;
 }
 @font-face {
@@ -106,25 +121,24 @@ ol {
   src: url(../fonts/Montserrat/ttf/Montserrat-BlackItalic.ttf);
   font-weight: 900;
   font-style: italic;
-}
-li:first-child {
-  font-family: "Montserrat", sans-serif;
-  font-weight: lighter;
-  /* font-style: italic; */
-  font-size: 160%;
-  font-size: 1.6em;
-  /* font-kerning: none; */
-  /* font-family: Arial; */
-}
+} */
+
 span {
   /* letter-spacing: -4.3rem; */
 }
-span:nth-of-type(2) {
-  font-kerning: none;
+
+li,
+em,
+strong {
+  font-synthesis: none;
+  /* font-synthesis: weight; */
+  font-synthesis: style;
 }
-li {
+.li {
+  /* font-family: "Montserrat"; */
   background-color: aqua;
   margin: 0 4rem;
+  /* font-synthesis: none; */
 }
 .gi2 {
 }
