@@ -153,6 +153,7 @@ li {
   /* font-variant-caps: small-caps; */
   /* font-variant-caps: all-small-caps; */
   font-variant-caps: titling-caps;
+  font-variant-emoji: emoji;
 }
 
 .gi2 {
