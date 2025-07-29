@@ -19,9 +19,9 @@ body {
   font-weight: 400;
   height: 100vh;
   background-color: #02012b;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .grid {
@@ -173,13 +173,16 @@ li {
   margin: 0 4rem;
 }
 .l0 {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  display: grid;
+  grid-template-columns: fit-content(1110rem);
 }
 .p {
+  font-size: 10rem;
   /* resize: both; */
-  background-color: red;
+  background-color: rgb(251, 255, 0);
   /* overflow: hidden; */
-  width: fit-content;
+  /* width: fit-content(50vw); */
   /* margin-right: 100rem; */
   /* min-width: max-content; */
   /* min-height: min-content; */
