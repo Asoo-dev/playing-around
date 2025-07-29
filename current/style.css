@@ -176,8 +176,11 @@ li {
   min-height: 100vh;
 }
 p {
+  resize: both;
   background-color: red;
-  width: min-content;
+  overflow: hidden;
+  min-width: max-content;
+  min-height: min-content;
   /* max-width: 400rem; */
   /* overflow-wrap: anywhere; */
   /* word-break: break-all; */
