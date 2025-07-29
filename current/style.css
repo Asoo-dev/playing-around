@@ -171,9 +171,17 @@ li {
   /* font-family: "Bodoni Moda", monospace; */
   background-color: aqua;
   margin: 0 4rem;
-  font-size-adjust: 1;
 }
-
+.l0 {
+  min-height: 100vh;
+}
+p {
+  background-color: red;
+  width: min-content;
+  /* max-width: 400rem; */
+  /* overflow-wrap: anywhere; */
+  /* word-break: break-all; */
+}
 .gi2 {
 }
 .gi3 {
