@@ -15,7 +15,7 @@ html {
 body {
   font-family: sans-serif;
   font-family: "Montserrat", sans-serif;
-  /* font-weight: 400; */
+  font-weight: 400;
   height: 100vh;
   background-color: #02012b;
   display: flex;
@@ -81,7 +81,7 @@ ol {
   /* font-weight: 400; */
 }
 
-/* @font-face {
+@font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-Light.ttf);
   font-weight: 300;
@@ -91,7 +91,7 @@ ol {
   src: url(../fonts/Montserrat/ttf/Montserrat-LightItalic.ttf);
   font-weight: 300;
   font-style: italic;
-} */
+}
 
 @font-face {
   font-family: "Montserrat";
@@ -117,7 +117,7 @@ ol {
   font-weight: 400;
   font-style: italic;
 }
-/* 
+
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/ttf/Montserrat-Bold.ttf);
@@ -139,21 +139,30 @@ ol {
   src: url(../fonts/Montserrat/ttf/Montserrat-BlackItalic.ttf);
   font-weight: 900;
   font-style: italic;
-} */
+}
 
 span {
-  font-optical-sizing: auto;
+  border: 2rem solid red;
+  font-family: serif, monospace;
+  font-weight: 700;
+}
+span:last-of-type {
+  font-family: "ontserrat", segoe ui, sans-serif;
+  position: absolute;
+  transform: translate(-110%, -2rem);
+  color: rgba(255, 255, 0, 0.616);
+  border: 2rem solid magenta;
+  font-size-adjust: ex-height 1.05;
 }
 li {
   /* font-variant-caps: small-caps; */
 }
 .li:first-child {
   font-size: 10rem;
-  font-family: "Montserrat", monospace;
-  font-family: "Bodoni Moda", monospace;
+  /* font-family: "Bodoni Moda", monospace; */
   background-color: aqua;
   margin: 0 4rem;
-  font-optical-sizing: none;
+  font-size-adjust: 1;
 }
 
 .gi2 {
