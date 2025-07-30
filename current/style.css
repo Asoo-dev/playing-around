@@ -180,18 +180,20 @@ li {
   resize: both;
   background-color: rgb(251, 255, 0);
   overflow: hidden;
-  max-width: max-content;
-  width: 420%;
-  min-width: 50%;
-  height: auto;
-  max-height: max-content;
-  min-block-size: 10vw;
+
   /* margin-right: 100rem; */
   /* min-width: max-content; */
   /* min-height: min-content; */
   /* max-width: 400rem; */
   /* overflow-wrap: anywhere; */
   /* word-break: break-all; */
+  position: relative;
+}
+.p::after {
+  content: image-set("../1-1.jpg" 3x, "../1-3.jpg" 1x);
+  height: 200rem;
+  width: 200rem;
+  position: absolute;
 }
 .gi2 {
 }
