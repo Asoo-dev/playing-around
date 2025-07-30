@@ -196,7 +196,7 @@ li {
   content: linear-gradient(red, blue);
   content: attr(data-p);
   content: open-quote;
-  content: open-quote;
+  content: "dov" url("../2-2.jpg") "pkfprkv" /"efojorjvor pevp";
   height: 200rem;
   width: 200rem;
   position: absolute;
