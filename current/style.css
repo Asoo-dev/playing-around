@@ -182,6 +182,10 @@ li {
   overflow: hidden;
   max-width: max-content;
   width: 420%;
+  min-width: 50%;
+  height: auto;
+  max-height: max-content;
+  min-block-size: 10vw;
   /* margin-right: 100rem; */
   /* min-width: max-content; */
   /* min-height: min-content; */
