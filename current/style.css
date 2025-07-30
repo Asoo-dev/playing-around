@@ -174,15 +174,14 @@ li {
 }
 .l0 {
   /* min-height: 100vh; */
-  display: grid;
-  grid-template-columns: fit-content(1110rem);
 }
 .p {
-  font-size: 10rem;
-  /* resize: both; */
+  font-size: 4rem;
+  resize: both;
   background-color: rgb(251, 255, 0);
-  /* overflow: hidden; */
-  /* width: fit-content(50vw); */
+  overflow: hidden;
+  max-width: max-content;
+  width: 420%;
   /* margin-right: 100rem; */
   /* min-width: max-content; */
   /* min-height: min-content; */
