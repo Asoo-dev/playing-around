@@ -208,6 +208,10 @@ textarea {
   margin: 10rem;
   font-size: 10rem;
 }
+textarea {
+  height: 40rem;
+  padding: 4rem;
+}
 .gi2 {
 }
 .gi3 {
