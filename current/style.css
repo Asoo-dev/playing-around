@@ -212,6 +212,12 @@ textarea {
   height: 40rem;
   padding: 4rem;
 }
+[type="text"]:user-valid {
+  background-color: greenyellow;
+}
+[type="text"]:user-invalid {
+  background-color: red;
+}
 .gi2 {
 }
 .gi3 {
