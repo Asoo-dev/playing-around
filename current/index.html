@@ -35,27 +35,12 @@
         <ol>
           <li>d</li>
           <li class="li l l0">
-            <p class="p" data-p="PpPp" draggable="true" hidden>
+            <p class="p" data-p="PpPp" contenteditable="true" spellcheck="true">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
               itaque voluptatum atque deleniti! Ipsa eligendi expedita
               distinctio omnis, ex illum facere delectus. Dolores amet
               repellendus pariatur placeat aperiam, unde maiores
             </p>
-            <script>
-              const p = document.querySelector(".p");
-              p.addEventListener("dragstart", () => {
-                p.style.backgroundColor = "red";
-              });
-              p.addEventListener("dragend", () => {
-                p.style.backgroundColor = "yellow";
-              });
-              p.addEventListener(
-                "click",
-                setTimeout(() => {
-                  p.removeAttribute("hidden", "true");
-                }, 4000)
-              );
-            </script>
           </li>
         </ol>
         <ol>
