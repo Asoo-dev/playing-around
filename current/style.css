@@ -177,6 +177,9 @@ li {
   display: grid;
   place-items: center;
 }
+:focus {
+  outline: 4rem solid red;
+}
 .p {
   font-size: 10rem;
   resize: both;
