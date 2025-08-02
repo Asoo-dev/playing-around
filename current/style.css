@@ -215,10 +215,16 @@ textarea {
   height: 40rem;
   padding: 4rem;
 }
-[type="email"]:valid {
+[type="text"]:user-valid {
   background-color: greenyellow;
 }
-[type="email"]:invalid {
+[type="text"]:user-invalid {
+  background-color: red;
+}
+[type="date"]:user-valid {
+  background-color: greenyellow;
+}
+[type="date"]:user-invalid {
   background-color: red;
 }
 .gi2 {
