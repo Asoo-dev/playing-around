@@ -18,13 +18,23 @@
         <p>المستخدم <bdi>Abbas</bdi> خمس منشورات</p>
         <p>المستخدم <bdo> Abbas</bdo> لديه خمس منشورات</p>
         <p>المستخدم <bdi>Abbas</bdi> لديه خمس منشورات</p>
-        <details open>
-          <summary>jifh fiehfief eihfiehd ie</summary>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo facere
-          dignissimos consequuntur ipsum doloribus illum est praesentium
-          necessitatibus voluptate corporis quam eveniet, debitis dicta quidem
-          aliquam repellat, porro quis error!
-        </details>
+        <dialog id="a">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda at
+          suscipit esse accusantium saepe! Magnam soluta, nulla eius illo quis,
+          delectus eaque eligendi beatae voluptatibus aut perspiciatis, aliquid
+          architecto harum!
+          <button id="btn">clos</button>
+        </dialog>
+        <button id="btnop">open dialog</button>
+        <script>
+          document.querySelector("#btnop").addEventListener("click", () => {
+            document.querySelector("dialog").showModal();
+          });
+
+          document.querySelector("#btn").addEventListener("click", () => {
+            document.querySelector("dialog").close();
+          });
+        </script>
         <p>
           <del>lllorem ipsum</del>
         </p>
