@@ -235,7 +235,9 @@ ins {
   text-decoration: none;
   background-color: rgb(121, 241, 127);
 }
-
+dl {
+  margin-left: 10rem;
+}
 .gi2 {
 }
 .gi3 {
